@@ -42,6 +42,8 @@ public class MessageTest {
 		
 		driver.findElement(By.xpath("//button[@type=\"submit\"]")).click();
 		
+		driver.findElement(By.xpath("//span[text()=\"Message Center\"]")).click();
+		
 		//driver.close();  // close the browser
 		
 		
